@@ -29,7 +29,7 @@ Feature: Create a new dict
             | qa1      | 12345  |
             | qa2      | 67890  |
 
-  @test9 @nok
+  @test9 @nok @specialtag
   Scenario: Create a new dict with one entry
     Given a configured python environment
     When  I create a new dict with key with this values:
